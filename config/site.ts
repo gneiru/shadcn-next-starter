@@ -1,9 +1,10 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Multus",
+  logo: "/Multus.png",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Multus Discord community server is a friendly discord community based on the AQW guild Multus",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +12,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/multus_AE",
+    discord: "https://discord.gg/multus",
     docs: "https://ui.shadcn.com",
   },
 }
